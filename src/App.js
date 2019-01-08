@@ -9,7 +9,7 @@ class App extends Component {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eos ut
           quia obcaecati quis sed, fuga sapiente labore, tempora corporis facere
           sit praesentium voluptas. Nesciunt laudantium laborum, sapiente quod
-          possimus!
+          possimus!!
         </p>
         <br />
       </div>
