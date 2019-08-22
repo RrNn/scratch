@@ -6,8 +6,9 @@ import Dashboard from './Dashboard';
 
 class Nav extends React.Component {
   render() {
+    
     return (
-      <Router>
+      <Router basename="/scratch">
         <div>
           <NavLink exact activeClassName="active" to="/">Dashboard</NavLink>
           <NavLink activeClassName="active" to="/home">Home</NavLink>
