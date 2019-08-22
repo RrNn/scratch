@@ -1,1 +1,1 @@
-chmod 701 user_home
+release: heroku run bash
