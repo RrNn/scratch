@@ -23,6 +23,13 @@ console.log('history', history)
     action: 'Created an Account'
   });
 
+export const click = (e) =>{
+    ReactGA.event({
+      category: 'Clicking',
+      action: 'Button Clicked'
+    })
+  }
+
   // history.listen(location => ReactGA.pageview(location.pathname));
 
 

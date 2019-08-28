@@ -1,2 +1,5 @@
 node_modules
 dist
+
+# ignore trial php files that might land in here, I'm a lil bit weired, i put files anywhere 😎
+*.php
