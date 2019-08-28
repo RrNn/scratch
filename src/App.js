@@ -13,6 +13,7 @@ console.log('history', history)
   const optionsObj = {
     debug: true
   }
+
   ReactGA.initialize('UA-146344862-1', optionsObj);
   ReactGA.pageview('/');
   ReactGA.pageview('/home');
@@ -23,10 +24,11 @@ console.log('history', history)
     action: 'Created an Account'
   });
 
-export const click = (e) =>{
+export const buttonClick = (event) =>{
     ReactGA.event({
       category: 'Clicking',
-      action: 'Button Clicked'
+      action: 'Button Clicked',
+      label: event.target.href || event.target.name || 'Button clicked has no __href__ or __name__'
     })
   }
 
