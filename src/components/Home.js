@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { trackSports } from '../App';
 const Home = () => {
   return (
     <div className="App">
@@ -10,6 +10,7 @@ const Home = () => {
         perspiciatis laudantium deserunt accusamus animi nisi. Natus ipsam
         nostrum voluptatem repellendus animi tempora.
       </p>
+      <button onClick={trackSports}>SPORTS</button>
     </div>
   );
 };
